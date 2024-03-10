@@ -14,7 +14,8 @@ vim.opt.expandtab = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
-vim.opt.clipboard = "unnamed"
+-- Synchronizes the system clipboard with neovim's clipboard 
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.scrolloff = 999
 
@@ -26,3 +27,6 @@ vim.opt.ignorecase = true
 
 vim.opt.termguicolors = true
 
+vim.g.mapleader = " "
+
+vim.opt.showmode = false
